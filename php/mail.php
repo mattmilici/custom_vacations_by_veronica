@@ -18,7 +18,7 @@ else
 
 
 
-$to = 'themewar@gmail.com';
+$to = 'milici.m915@gmail.com';
 $subject = 'Quick Travel Booking Request';
 
 $message = 'New booking request send from Quick Travel. User '.$c.' all terms and conditions.<br/><br/>';
