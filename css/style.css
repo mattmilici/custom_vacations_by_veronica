@@ -149,7 +149,7 @@
 /**Promotion**/
 
 .promotion {
-    background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll 0 -21px;
+    background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll 0 0px;
 }
 
 .singlePromotion {
