@@ -69,6 +69,12 @@
     margin-left: 32px;
 }
 
+.commonSection,
+.form-top {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 .mainNav ul li a {
     font-weight: 700;
     color: #fff;
