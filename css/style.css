@@ -706,13 +706,6 @@
     padding: 85px 0 115px;
 }
 
-.testTitle {
-    color: #288dff;
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 75px;
-}
-
 .rating {
     line-height: 0.8;
     margin-bottom: 25px;
@@ -1062,4 +1055,19 @@
 .DempsterName {
     font-weight: bold;
     color: red;
+}
+
+.reviews-header {
+    margin-bottom: 7%;
+}
+
+.hear-from {
+    font-size: 15px;
+}
+
+.testTitle {
+    color: #288dff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5%;
 }
