@@ -1043,3 +1043,23 @@
         transform: rotateY(-180deg);
     }
 }
+
+.a-topics {
+    font-weight: 500;
+    color: black;
+}
+
+.btn-link {
+    font-size: 2rem;
+    color: #7ab55c !important;
+    /* background-color: #fff; */
+}
+
+.dtown {
+    font-size: 10px;
+}
+
+.DempsterName {
+    font-weight: bold;
+    color: red;
+}
