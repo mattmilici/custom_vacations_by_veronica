@@ -1071,3 +1071,35 @@
     font-weight: 700;
     margin-bottom: 5%;
 }
+
+.logoBig {
+    width: 50%;
+    height: auto;
+}
+
+.travelBtn {
+    margin: 2% 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .logoBig {
+        width: 80%;
+        height: auto;
+    }
+    .bannerCont h1 {
+        font-family: "Sansita Swashed";
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 1%;
+        text-transform: capitalize;
+    }
+    .bannerCont p {
+        font-size: 20px;
+        line-height: 0.8;
+        color: #fff;
+        font-family: "Sansita Swashed";
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 53px;
+    }
+}
