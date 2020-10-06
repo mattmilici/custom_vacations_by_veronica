@@ -283,6 +283,7 @@
 
 .singleWedo {
     background: #fff;
+    border-radius: 25px;
 }
 
 .wedoTit {
@@ -1045,6 +1046,7 @@
 .btn-link {
     font-size: 2rem;
     color: #7ab55c !important;
+    font-weight: 550;
     /* background-color: #fff; */
 }
 
