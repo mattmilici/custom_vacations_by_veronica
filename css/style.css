@@ -87,11 +87,11 @@
 }
 
 .mainNav ul li.active a {
-    color: #7ab55c !important;
+    color: #a0c1b8 !important;
 }
 
 .mainNav ul li a:hover {
-    color: #7ab55c !important;
+    color: #a0c1b8 !important;
 }
 
 .banner {
@@ -186,8 +186,8 @@
 }
 
 .singlePromotion:hover i {
-    border-color: #7ab55c;
-    color: #7ab55c;
+    border-color: #a0c1b8;
+    color: #a0c1b8;
 }
 
 
@@ -271,7 +271,7 @@
 }
 
 .subsForm button:hover {
-    background: #7ab55c;
+    background: #a0c1b8;
 }
 
 .subsForm .reqError {
@@ -413,7 +413,7 @@
 }
 
 #playVideos {
-    border: 2px solid #7ab55c;
+    border: 2px solid #a0c1b8;
     border-radius: 50%;
     display: inline-block;
     height: 80px;
@@ -423,7 +423,7 @@
 }
 
 #playVideos i {
-    color: #7ab55c;
+    color: #a0c1b8;
     font-size: 37px;
     font-weight: 900;
     line-height: 0.8;
@@ -546,7 +546,7 @@
     background: #fff;
     padding: 53px 33px 62px 46px;
     border: 1px solid #f2f2f2;
-    border-top: 4px solid #7ab55c;
+    border-top: 4px solid #a0c1b8;
     position: relative;
 }
 
@@ -643,7 +643,7 @@
 
 .cheackbox a {
     line-height: 0.8;
-    color: #7ab55c;
+    color: #a0c1b8;
     text-decoration: underline;
     font-weight: 500;
     font-size: 14px;
@@ -695,7 +695,7 @@
 }
 
 .travelBtnCont:hover {
-    background: #7ab55c;
+    background: #a0c1b8;
     color: #fff;
 }
 
@@ -772,7 +772,7 @@
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #fff none repeat scroll 0 0;
-    border-color: #7ab55c;
+    border-color: #a0c1b8;
 }
 
 
@@ -812,7 +812,7 @@
     content: "";
     width: 4px;
     height: 4px;
-    background: #7ab55c;
+    background: #a0c1b8;
     border-radius: 50%;
     position: absolute;
     left: 0;
@@ -829,7 +829,7 @@
 }
 
 .navigation li a:hover {
-    color: #7ab55c;
+    color: #a0c1b8;
 }
 
 .socialfooter {
@@ -872,7 +872,7 @@
 }
 
 .showit {
-    background: #7ab55c;
+    background: #a0c1b8;
     bottom: 50px;
     color: #fff;
     font-size: 20px;
@@ -1006,7 +1006,7 @@
 }
 
 .preloaderInner span:after {
-    border-color: #7ab55c;
+    border-color: #a0c1b8;
     right: -70px;
     animation: 5s Move2 ease-in-out infinite;
 }
@@ -1045,7 +1045,7 @@
 
 .btn-link {
     font-size: 2rem;
-    color: #7ab55c !important;
+    color: #a0c1b8 !important;
     font-weight: 550;
     /* background-color: #fff; */
 }
@@ -1104,4 +1104,8 @@
         font-style: italic;
         margin-bottom: 53px;
     }
+}
+
+.text-capitalize {
+    color: #150485;
 }
