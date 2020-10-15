@@ -1116,6 +1116,7 @@
 
 .servicesP {
     line-height: 1.6;
+    text-transform: lowercase;
 }
 
 .personalContactInfo {
@@ -1133,4 +1134,16 @@
 
 .phoneNumber {
     color: blue;
+}
+
+.cardStyleHeader {
+    margin: 5px;
+    background-color: #f9f6f7;
+    border-radius: 15px;
+}
+
+.cardStyleBody {
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
 }
