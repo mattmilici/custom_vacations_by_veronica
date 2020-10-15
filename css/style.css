@@ -800,7 +800,7 @@
 /**Footer **/
 
 .footer {
-    padding: 87px 0 125px;
+    padding: 87px 0 7%;
 }
 
 .navigation li {
@@ -1120,4 +1120,17 @@
 
 .personalContactInfo {
     margin-top: 4%;
+}
+
+.secondFooter {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.spanVertical {
+    font-weight: bold;
+}
+
+.phoneNumber {
+    color: blue;
 }
