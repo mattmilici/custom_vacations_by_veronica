@@ -1147,3 +1147,12 @@
     background-color: white;
     border-radius: 15px;
 }
+
+.fa-chevron-down {
+    padding-right: 30px;
+}
+
+.mb-0 {
+    margin-left: 5%;
+    text-align: left;
+}
