@@ -1048,7 +1048,7 @@
 }
 
 .btn-link {
-    word-wrap: normal;
+    overflow: auto;
     font-size: 50%;
     color: #a0c1b8 !important;
     font-weight: 550;
@@ -1081,10 +1081,6 @@
 .logoBig {
     width: 50%;
     height: auto;
-}
-
-.travelBtn {
-    margin: 2% 0;
 }
 
 @media only screen and (max-width: 900px) {
@@ -1155,4 +1151,12 @@
 .mb-0 {
     margin-left: 5%;
     text-align: left;
+}
+
+.quoteHeader {
+    font-size: 50%;
+}
+
+.travelBtn {
+    margin: 5% 0;
 }
