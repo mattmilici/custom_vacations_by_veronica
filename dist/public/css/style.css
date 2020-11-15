@@ -1070,6 +1070,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .banner p {
+        display: none;
+    }
     .btn-link {
         overflow: auto;
         font-size: 50%;
