@@ -217,86 +217,86 @@
     //========================
     // Contact Submit
     //========================
-    if ($("#booking").length > 0) {
-        $("#booking").on("submit", function(e) {
-            e.preventDefault();
-            $("#con_submit").html("Processsing...");
+    // if ($("#booking").length > 0) {
+    //     $("#booking").on("submit", function(e) {
+    //         e.preventDefault();
+    //         $("#con_submit").html("Processsing...");
 
-            var allData = $(this).serialize();
+    //         var allData = $(this).serialize();
 
-            var required = 0;
-            $(".required", this).each(function() {
-                if ($(this).val() == "") {
-                    $(this).addClass("reqError");
-                    required += 1;
-                } else {
-                    if ($(this).hasClass("reqError")) {
-                        $(this).removeClass("reqError");
-                        if (required > 0) {
-                            required -= 1;
-                        }
-                    }
-                }
-            });
-            if (required === 0) {
-                if ($("#a").is(":checked")) {
-                    $(".cheackbox").removeClass("agreeReq");
-                    $.ajax({
-                        type: "POST",
-                        url: "php/mail.php",
-                        data: { allData: allData },
-                        success: function(data) {
-                            $("#con_submit").html("<i>Done!</i><span></span>");
-                            $("#booking input").val("");
-                            $(".contactSuccess").fadeIn("slow");
-                            setTimeout(function() {
-                                $(".contactSuccess").fadeOut("slow");
-                            }, 2500);
-                        },
-                    });
-                } else {
-                    $(".cheackbox").addClass("agreeReq");
-                    $("#con_submit").html("<i>Failed!</i> <span></span>");
-                }
-            } else {
-                $("#con_submit").html("<i>Failed!</i> <span></span>");
-            }
-        });
+    //         var required = 0;
+    //         $(".required", this).each(function() {
+    //             if ($(this).val() == "") {
+    //                 $(this).addClass("reqError");
+    //                 required += 1;
+    //             } else {
+    //                 if ($(this).hasClass("reqError")) {
+    //                     $(this).removeClass("reqError");
+    //                     if (required > 0) {
+    //                         required -= 1;
+    //                     }
+    //                 }
+    //             }
+    //         });
+    //         // if (required === 0) {
+    //         //     if ($("#a").is(":checked")) {
+    //         //         $(".cheackbox").removeClass("agreeReq");
+    //         //         $.ajax({
+    //         //             type: "POST",
+    //         //             url: "php/mail.php",
+    //         //             data: { allData: allData },
+    //         //             success: function(data) {
+    //         //                 $("#con_submit").html("<i>Done!</i><span></span>");
+    //         //                 $("#booking input").val("");
+    //         //                 $(".contactSuccess").fadeIn("slow");
+    //         //                 setTimeout(function() {
+    //         //                     $(".contactSuccess").fadeOut("slow");
+    //         //                 }, 2500);
+    //         //             },
+    //         //         });
+    //         //     } else {
+    //         //         $(".cheackbox").addClass("agreeReq");
+    //         //         $("#con_submit").html("<i>Sent!</i> <span></span>");
+    //         //     }
+    //         // } else {
+    //         //     $("#con_submit").html("<i>Sent!</i> <span></span>");
+    //         // }
+    //     });
 
-        $(".required").on("keyup", function() {
-            $(this).removeClass("reqError");
-        });
-    }
+    //     $(".required").on("keyup", function() {
+    //         $(this).removeClass("reqError");
+    //     });
+    // }
 
-    if ($("#subscriptionsforms").length > 0) {
-        $("#subscriptionsforms").on("submit", function(e) {
-            e.preventDefault();
-            var sub_email = $("#sub_email").val();
-            $("#sub_submit").html("Processing...");
-            if (sub_email == "") {
-                $("#sub_email").addClass("reqError");
-                $("#sub_submit").html("Failed!");
-            } else {
-                $("#sub_email").removeClass("reqError");
-                $.ajax({
-                    type: "POST",
-                    url: "php/subscription.php",
-                    data: { sub_email: sub_email },
-                    success: function(data) {
-                        $("#subscriptionsforms input").val("");
-                        $("#sub_submit").html("Done!");
-                        $(".subscriptionSuccess").fadeIn("slow");
-                        setTimeout(function() {
-                            $(".subscriptionSuccess").fadeOut("slow");
-                        }, 2500);
-                    },
-                });
-            }
-        });
-        $("#sub_email").on("keyup", function() {
-            $(this).removeClass("reqError");
-        });
-    }
+    // if ($("#subscriptionsforms").length > 0) {
+    //     $("#subscriptionsforms").on("submit", function(e) {
+    //         e.preventDefault();
+    //         var sub_email = $("#sub_email").val();
+    //         $("#sub_submit").html("Processing...");
+    //         if (sub_email == "") {
+    //             $("#sub_email").addClass("reqError");
+    //             $("#sub_submit").html("Failed!");
+    //         } else {
+    //             $("#sub_email").removeClass("reqError");
+    //             $.ajax({
+    //                 type: "POST",
+    //                 url: "php/subscription.php",
+    //                 data: { sub_email: sub_email },
+    //                 success: function(data) {
+    //                     $("#subscriptionsforms input").val("");
+    //                     $("#sub_submit").html("Done!");
+    //                     $(".subscriptionSuccess").fadeIn("slow");
+    //                     setTimeout(function() {
+    //                         $(".subscriptionSuccess").fadeOut("slow");
+    //                     }, 2500);
+    //                 },
+    //             });
+    //         }
+    //     });
+    //     $("#sub_email").on("keyup", function() {
+    //         $(this).removeClass("reqError");
+    //     });
+    // }
     $(document).mouseup(function(e) {
         var container = $(".closers");
 
