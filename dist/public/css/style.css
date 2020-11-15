@@ -1069,6 +1069,19 @@
     font-weight: 550;
 }
 
+@media screen and (max-width: 600px) {
+    .btn-link {
+        overflow: auto;
+        font-size: 50%;
+        color: #a0c1b8 !important;
+        font-weight: 550;
+    }
+    .logo7 {
+        height: auto;
+        width: 75%;
+    }
+}
+
 .dtown {
     font-size: 10px;
 }
