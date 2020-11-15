@@ -340,9 +340,9 @@
     $(".banner").vegas({
         transitionDuration: 4000,
         slides: [
-            { src: "images/banner.jpg" },
-            { src: "images/banner2.jpg" },
-            { src: "images/banner3.jpg" },
+            { src: "public/images/banner.jpg" },
+            { src: "public/images/banner2.jpg" },
+            { src: "public/images/banner3.jpg" },
         ],
         transition: "fade",
     });
