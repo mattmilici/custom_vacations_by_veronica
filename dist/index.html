@@ -286,30 +286,30 @@
         <div class="container">
             <div class="noPaddingLeft text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                 <div class="contactForm">
-                    <form action="/php/mail.php" method="post" class="contactform" id="booking">
+                    <form name="contact" method="POST" data-netlify="true" class="contactform" id="booking">
                         <div class="topTitle">
                             <p>Want more information?</p>
                             <h3>Let's get connected</h3>
                         </div>
                         <div class="singleConForm">
                             <p>First Name:</p>
-                            <input class="required" type="text" name="jfirstname" id="con_name" />
+                            <input class="required" type="text" name="firstName" id="con_name" />
                         </div>
                         <div class="singleConForm">
                             <p>Last Name:</p>
-                            <input class="required" type="text" name="jlastname" id="con_name" />
+                            <input class="required" type="text" name="lastName" id="con_name" />
                         </div>
                         <div class="singleConForm">
                             <p>Email:</p>
-                            <input class="required" type="email" name="jemail" id="con_email" />
+                            <input class="required" type="email" name="email" id="con_email" />
                         </div>
                         <div class="singleConForm">
                             <p>Phone:</p>
-                            <input class="required" type="text" name="jphone" id="con_phone" />
+                            <input class="required" type="text" name="phone" id="con_phone" />
                         </div>
                         <div class="singleConForm">
                             <p>Message:</p>
-                            <input class="required" type="text" name="jpeople" id="con_people" />
+                            <input class="required" type="text" name="message" id="con_people" />
                         </div>
                         <div class="contFormBott">
 
@@ -325,7 +325,7 @@
 
                                 </div>
                                 <div class="col-sm-6">
-                                    <p>Hours:</p>
+                                    <p>Hours1:</p>
                                     <p>Monday - Friday: 9:00am - 5:00pm EST</p>
                                     <p>Or by appointment</p>
                                 </div>
