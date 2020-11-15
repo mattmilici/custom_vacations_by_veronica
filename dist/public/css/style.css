@@ -1070,6 +1070,13 @@
 }
 
 @media screen and (max-width: 600px) {
+    .phoneNumber,
+    .policy {
+        display: inline-block;
+    }
+    .spanVertical {
+        display: none;
+    }
     .banner p {
         display: none;
     }
