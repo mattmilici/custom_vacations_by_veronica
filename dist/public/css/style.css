@@ -28,6 +28,10 @@
 
 /**Header**/
 
+html {
+    overflow-x: hidden;
+}
+
 .header {
     position: absolute;
     left: 0;
