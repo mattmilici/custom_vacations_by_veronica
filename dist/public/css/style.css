@@ -28,8 +28,13 @@
 
 /**Header**/
 
-html {
+html,
+body {
     overflow-x: hidden;
+}
+
+body {
+    position: relative
 }
 
 .header {
